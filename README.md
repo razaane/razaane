@@ -14,7 +14,7 @@
 <br/>
 
 <!-- Anime coding girl GIF -->
-<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="280" />
+<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="70%" height="280" />
 
 <br/><br/>
 
@@ -38,9 +38,9 @@ const razane = {
   role:          "Full Stack Developer ",
   currentFocus:  ["Laravel", "React", "TailwindCSS"],
   expertise:     ["PHP", "JavaScript", "Python", "C/C++", "MySQL"],
-  workingOn:     "Building scalable & beautiful web apps ✨",
+  workingOn:     "Building scalable & beautiful web apps ",
   funFact:       "I debug with coffee ☕ — strong, sweet, served with a pink straw ",
-  philosophy:    "Code like a girl. Ship like a boss. 👑",
+  philosophy:    "Code like a girl. Ship like a boss. ",
   lifeGoal:      "Contributing to open source & learning every single day ",
 };
 ```
@@ -110,8 +110,6 @@ const razane = {
 ##  Fuel My Code
 
 *"Behind every great line of code is an even greater iced coffee"*
-
-<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:c084fc,100:ff6eb4&height=120&section=footer&animation=fadeIn" />
 
