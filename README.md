@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Banner - GitHub safe -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6eb4,40:d946a8,70:c084fc,100:7c3aed&height=220&section=header&text=Razane%20Wakhidi&fontSize=62&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=%E2%9C%A6%20Full%20Stack%20Developer%20%C2%B7%20Code%20Artisan%20%C2%B7%20Morocco%20%F0%9F%87%B2%F0%9F%87%A6%20%E2%9C%A6&descAlignY=63&descAlign=50&descSize=17&animation=fadeIn" />
+<!-- BANNER -->
+<img width="100%" src="./banner_razane.svg" alt="Wakhidi razane — Full Stack Developer" />
+
+</div>
 
 <br/>
 
@@ -25,7 +27,7 @@
 
 <div align="center">
 
-## 🎀 About Me
+## About Me
 
 </div>
 
@@ -46,7 +48,7 @@ const razane = {
 
 <div align="center">
 
-## 💜 Tech Stack
+##  Tech Stack
 
 **Frontend**
 
@@ -79,7 +81,7 @@ const razane = {
 
 <div align="center">
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=razaane&show_icons=true&theme=radical&bg_color=1a0a2e&border_color=e879f9&icon_color=f0abfc&title_color=ff6eb4&text_color=ffffff" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=razaane&theme=radical&background=1a0a2e&border=e879f9&ring=ff6eb4&fire=c084fc&currStreakLabel=f0abfc" />
@@ -94,7 +96,7 @@ const razane = {
 
 <div align="center">
 
-## 🌸 Activity Graph
+##  Activity Graph
 
 [![Razane's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=razaane&bg_color=1a0a2e&color=f0abfc&line=e879f9&point=ff6eb4&area=true&hide_border=false)](https://github.com/razaane)
 

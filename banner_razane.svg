@@ -1,0 +1,116 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0010;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#130822;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0533;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c084fc;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#c084fc;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#e879f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e879f9;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2c9ff" />
+      <stop offset="50%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#f0abfc" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="18" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Mystical glow orbs -->
+  <ellipse cx="200" cy="110" rx="160" ry="90" fill="#7c3aed" opacity="0.07" filter="url(#softGlow)"/>
+  <ellipse cx="700" cy="110" rx="160" ry="90" fill="#a855f7" opacity="0.07" filter="url(#softGlow)"/>
+  <ellipse cx="450" cy="110" rx="200" ry="60" fill="#c084fc" opacity="0.04" filter="url(#softGlow)"/>
+
+  <!-- Corner accents -->
+  <line x1="0" y1="0" x2="70" y2="0" stroke="#c084fc" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="0" x2="0" y2="70" stroke="#c084fc" stroke-width="1.5" opacity="0.7"/>
+  <line x1="900" y1="0" x2="830" y2="0" stroke="#e879f9" stroke-width="1.5" opacity="0.7"/>
+  <line x1="900" y1="0" x2="900" y2="70" stroke="#e879f9" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="220" x2="70" y2="220" stroke="#c084fc" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="220" x2="0" y2="150" stroke="#c084fc" stroke-width="1.5" opacity="0.7"/>
+  <line x1="900" y1="220" x2="830" y2="220" stroke="#e879f9" stroke-width="1.5" opacity="0.7"/>
+  <line x1="900" y1="220" x2="900" y2="150" stroke="#e879f9" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Stars scattered -->
+  <circle cx="60" cy="40" r="1.2" fill="#e2c9ff" opacity="0.8"/>
+  <circle cx="150" cy="20" r="0.8" fill="#f0abfc" opacity="0.6"/>
+  <circle cx="820" cy="35" r="1.2" fill="#e2c9ff" opacity="0.8"/>
+  <circle cx="860" cy="180" r="0.8" fill="#f0abfc" opacity="0.6"/>
+  <circle cx="40" cy="185" r="1" fill="#c084fc" opacity="0.7"/>
+  <circle cx="780" cy="195" r="1" fill="#c084fc" opacity="0.7"/>
+  <circle cx="120" cy="170" r="0.7" fill="#e879f9" opacity="0.5"/>
+  <circle cx="750" cy="50" r="0.7" fill="#e879f9" opacity="0.5"/>
+
+  <!-- Diamond sparkles -->
+  <polygon points="80,110 84,118 80,126 76,118" fill="#c084fc" opacity="0.9" filter="url(#glow)"/>
+  <polygon points="820,110 824,118 820,126 816,118" fill="#e879f9" opacity="0.9" filter="url(#glow)"/>
+  <!-- Small sparkles -->
+  <polygon points="180,55 182,60 180,65 178,60" fill="#f0abfc" opacity="0.6"/>
+  <polygon points="720,160 722,165 720,170 718,165" fill="#c084fc" opacity="0.6"/>
+
+  <!-- Name -->
+  <text x="450" y="95" font-family="'Segoe UI', 'Helvetica Neue', Georgia, serif"
+        font-size="40" font-weight="700" fill="url(#nameGrad)"
+        text-anchor="middle" letter-spacing="5"
+        filter="url(#textGlow)">WAKHIDI RAZANE</text>
+
+  <!-- Divider line -->
+  <rect x="180" y="108" width="540" height="1.5" fill="url(#lineGrad)" rx="1"/>
+
+  <!-- Role -->
+  <text x="450" y="136" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#c084fc" text-anchor="middle"
+        letter-spacing="6" font-weight="400">FULL STACK DEVELOPER</text>
+
+  <!-- Tech pills -->
+  <rect x="238" y="155" width="56" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="266" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">PHP</text>
+
+  <rect x="304" y="155" width="72" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="340" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">LARAVEL</text>
+
+  <rect x="386" y="155" width="68" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="420" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">PYTHON</text>
+
+  <rect x="464" y="155" width="68" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="498" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">REACT</text>
+
+  <rect x="542" y="155" width="80" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="582" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">TAILWIND</text>
+
+  <rect x="632" y="155" width="72" height="20" rx="10" fill="#7c3aed" opacity="0.25" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="668" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#e2c9ff" text-anchor="middle" letter-spacing="1">MOROCCO</text>
+
+  <!-- Tagline -->
+  <text x="450" y="207" font-family="'Courier New', monospace"
+        font-size="11" fill="#4a2060" text-anchor="middle" letter-spacing="2">
+    // Code like a girl. Ship like a boss. 👑
+  </text>
+
+</svg>
