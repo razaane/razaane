@@ -9,7 +9,7 @@
 <br/>
 
 <!-- Typing Animation - URL-encoded emojis for reliability -->
-<img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=27&duration=3000&pause=900&color=e879f9&center=true&vCenter=true&width=680&height=55&lines=%E2%9C%A8+Crafting+elegant+solutions+with+love;%F0%9F%8C%B8+Turning+coffee+into+code+since+day+one+%E2%98%95;%F0%9F%92%9C+Full+Stack+%26+Fabulous;%F0%9F%8E%80+Building+the+web%2C+one+pixel+at+a+time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=27&duration=3000&pause=900&color=e879f9&center=true&vCenter=true&width=680&height=55&lines=Crafting+elegant+solutions+with+love;Turning+coffee+into+code+since+day+one;Full+Stack+%26+Fabulous;Building+the+web%2C+one+pixel+at+a+time" alt="Typing SVG" />
 
 <br/>
 
@@ -35,13 +35,13 @@
 ```javascript
 const razane = {
   location:      "Morocco 🇲🇦",
-  role:          "Full Stack Developer 💻",
+  role:          "Full Stack Developer ",
   currentFocus:  ["Laravel", "React", "TailwindCSS"],
   expertise:     ["PHP", "JavaScript", "Python", "C/C++", "MySQL"],
   workingOn:     "Building scalable & beautiful web apps ✨",
-  funFact:       "I debug with coffee ☕ — strong, sweet, served with a pink straw 🌸",
+  funFact:       "I debug with coffee ☕ — strong, sweet, served with a pink straw ",
   philosophy:    "Code like a girl. Ship like a boss. 👑",
-  lifeGoal:      "Contributing to open source & learning every single day 🚀",
+  lifeGoal:      "Contributing to open source & learning every single day ",
 };
 ```
 
@@ -107,13 +107,9 @@ const razane = {
 
 <div align="center">
 
-## ☕ Fuel My Code
+##  Fuel My Code
 
-*"Behind every great line of code is an even greater iced coffee with oat milk 🧋💜"*
-
-<br/>
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ff6eb4?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/razaane)
+*"Behind every great line of code is an even greater iced coffee"*
 
 <br/>
 
