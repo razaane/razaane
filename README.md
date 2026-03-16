@@ -1,4 +1,5 @@
 <div align="center">
+<div align="center">
 
 <!-- BANNER -->
 <img width="100%" src="./banner_razane.svg" alt="Wakhidi razane — Full Stack Developer" />
